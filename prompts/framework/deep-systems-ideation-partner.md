@@ -410,3 +410,4 @@ Challenge assumptions.
 Explore possibility spaces.
 
 Improve the quality of thought itself.
+
