@@ -1,0 +1,822 @@
+{
+  "source": {
+    "filename": "Improving Testing Prompt.pdf",
+    "title": "Improving Testing Prompt",
+    "creator": "Pdfcrowd.com v20240430.121",
+    "producer": "Skia/PDF",
+    "total_pages": 190,
+    "source_type": "ChatGPT Conversation Export (HTML-to-PDF)",
+    "extraction_date": "2026-06-19",
+    "extraction_method": "pypdf text extraction, page-by-page chunking"
+  },
+  "manifest_version": "1.0",
+  "total_prompts_identified": 80,
+  "prompts_by_type": {
+    "user_prompts": 41,
+    "assistant_generated_prompts": 39
+  },
+  "prompts": {
+    "P001": {
+      "id": "P001",
+      "type": "user",
+      "title": "Original Testing Prompt Improvement Request",
+      "pages": "1",
+      "topic": "Testing Prompt Engineering",
+      "use_case": "Prompt Improvement",
+      "agent_type": "N/A (User Request)"
+    },
+    "P002": {
+      "id": "P002",
+      "type": "assistant",
+      "title": "Improved Testing Prompt \u2014 Senior QA Engineer",
+      "pages": "1\u201311",
+      "topic": "Testing Prompt Engineering",
+      "use_case": "Software QA / Testing Agent",
+      "agent_type": "Senior QA Engineer"
+    },
+    "P003": {
+      "id": "P003",
+      "type": "user",
+      "title": "Bug-Fixing Agent Request",
+      "pages": "11\u201312",
+      "topic": "Bug Fixing / Debugging",
+      "use_case": "Bug-Fixing Agent Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P004": {
+      "id": "P004",
+      "type": "assistant",
+      "title": "Bug-Fixing Agent Prompt \u2014 Senior Software Engineer",
+      "pages": "12\u201313",
+      "topic": "Bug Fixing / Debugging",
+      "use_case": "Production Bug Fixing",
+      "agent_type": "Senior Backend Engineer"
+    },
+    "P005": {
+      "id": "P005",
+      "type": "user",
+      "title": "Re-testing Agent Request",
+      "pages": "13\u201316",
+      "topic": "Testing Retest / QA",
+      "use_case": "Re-testing Agent Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P006": {
+      "id": "P006",
+      "type": "assistant",
+      "title": "Senior QA Automation / Reliability-Testing Agent Prompt",
+      "pages": "14\u201316",
+      "topic": "Testing Retest / QA",
+      "use_case": "Re-testing / Regression Testing",
+      "agent_type": "Senior QA Automation"
+    },
+    "P007": {
+      "id": "P007",
+      "type": "user",
+      "title": "Wrapper Agent for Specific Restrictions Request",
+      "pages": "16",
+      "topic": "Wrapper / Meta-Agent",
+      "use_case": "Restricted Role Agent Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P008": {
+      "id": "P008",
+      "type": "assistant",
+      "title": "Principal Geospatial Systems Engineer Agent Prompt",
+      "pages": "17\u201320",
+      "topic": "Spatial / Geospatial Engineering",
+      "use_case": "Geospatial/Routing Implementation",
+      "agent_type": "Principal Geospatial Engineer"
+    },
+    "P009": {
+      "id": "P009",
+      "type": "user",
+      "title": "Rigorous Testing Agent (All Features) Request",
+      "pages": "21",
+      "topic": "Testing \u2014 Full Coverage",
+      "use_case": "Full Feature Testing Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P010": {
+      "id": "P010",
+      "type": "assistant",
+      "title": "Senior Software Testing Agent Prompt \u2014 Full Coverage",
+      "pages": "21\u201324",
+      "topic": "Testing \u2014 Full Coverage",
+      "use_case": "Comprehensive Testing Agent",
+      "agent_type": "Senior Testing Agent"
+    },
+    "P011": {
+      "id": "P011",
+      "type": "user",
+      "title": "E2E Tester for Workflow System Request",
+      "pages": "24",
+      "topic": "Testing \u2014 E2E Workflow",
+      "use_case": "E2E Workflow Testing Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P012": {
+      "id": "P012",
+      "type": "assistant",
+      "title": "Principal E2E QA and Workflow Validation Agent Prompt",
+      "pages": "24\u201330",
+      "topic": "Testing \u2014 E2E Workflow",
+      "use_case": "E2E Workflow/AI System Testing",
+      "agent_type": "Principal E2E QA Agent"
+    },
+    "P013": {
+      "id": "P013",
+      "type": "user",
+      "title": "E2E Tester for Java Project Request",
+      "pages": "30\u201331",
+      "topic": "Testing \u2014 E2E Java Project",
+      "use_case": "Java Project E2E Testing Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P014": {
+      "id": "P014",
+      "type": "assistant",
+      "title": "Senior E2E QA Agent for ZonePilot Prompt",
+      "pages": "31\u201333",
+      "topic": "Testing \u2014 E2E Java Project",
+      "use_case": "Java/Spring Boot E2E Testing",
+      "agent_type": "Senior E2E QA Agent"
+    },
+    "P015": {
+      "id": "P015",
+      "type": "user",
+      "title": "Deployment Agent (Render/Vercel) Request",
+      "pages": "34",
+      "topic": "DevOps / Deployment",
+      "use_case": "Cloud Deployment Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P016": {
+      "id": "P016",
+      "type": "assistant",
+      "title": "DevOps / Cloud Deployment Engineer Agent Prompt",
+      "pages": "34\u201338",
+      "topic": "DevOps / Deployment",
+      "use_case": "Production Cloud Deployment",
+      "agent_type": "Senior DevOps Engineer"
+    },
+    "P017": {
+      "id": "P017",
+      "type": "user",
+      "title": "pgRouting Bug Debug + Simulation Fix Request",
+      "pages": "38",
+      "topic": "Bug Fixing / Spatial",
+      "use_case": "Spatial Routing Debug and Fix",
+      "agent_type": "N/A (User Request)"
+    },
+    "P018": {
+      "id": "P018",
+      "type": "assistant",
+      "title": "Senior Full-Stack Debugging Agent Prompt",
+      "pages": "38\u201341",
+      "topic": "Bug Fixing / Spatial",
+      "use_case": "Spatial Routing/Frontend Debug",
+      "agent_type": "Senior Full-Stack Debugging Agent"
+    },
+    "P019": {
+      "id": "P019",
+      "type": "user",
+      "title": "Ideation / Planning Agent Request",
+      "pages": "42",
+      "topic": "System Architecture / Planning",
+      "use_case": "Project Ideation and Planning Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P020": {
+      "id": "P020",
+      "type": "user",
+      "title": "Specific Agent Prompt Request (not acting as agent)",
+      "pages": "43",
+      "topic": "Meta / Agent Design",
+      "use_case": "Agent Prompt Design Request",
+      "agent_type": "N/A (User Request)"
+    },
+    "P021": {
+      "id": "P021",
+      "type": "assistant",
+      "title": "World-Class Systems Architect / Planner Agent Prompt",
+      "pages": "43\u201349",
+      "topic": "System Architecture / Planning",
+      "use_case": "Methodical Project Planning",
+      "agent_type": "Systems Architect / Planner"
+    },
+    "P022": {
+      "id": "P022",
+      "type": "user",
+      "title": "Database Recovery Agent (Supabase) Request",
+      "pages": "49",
+      "topic": "Database Recovery / Migration",
+      "use_case": "Database Reconstruction Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P023": {
+      "id": "P023",
+      "type": "assistant",
+      "title": "Senior Database Recovery / Supabase Agent Prompt",
+      "pages": "49\u201354",
+      "topic": "Database Recovery / Migration",
+      "use_case": "Database Schema Recovery Agent",
+      "agent_type": "Database Recovery Architect"
+    },
+    "P024": {
+      "id": "P024",
+      "type": "user",
+      "title": "PolicySattva E2E Testing + Data Wipe Bug Request",
+      "pages": "54\u201355",
+      "topic": "Testing \u2014 Full Stack / Bug Fixing",
+      "use_case": "E2E Testing and Bug Fix",
+      "agent_type": "N/A (User Request)"
+    },
+    "P025": {
+      "id": "P025",
+      "type": "assistant",
+      "title": "Senior Full-Stack QA / Bug-Fix Agent for PolicySattva Prompt",
+      "pages": "56\u201360",
+      "topic": "Testing \u2014 Full Stack / Bug Fixing",
+      "use_case": "E2E Testing and Data Fix",
+      "agent_type": "Full-Stack QA / Debugging Agent"
+    },
+    "P026": {
+      "id": "P026",
+      "type": "user",
+      "title": "Frontend Refactor + Docker Containerization Request",
+      "pages": "60\u201361",
+      "topic": "Frontend Refactoring / DevOps",
+      "use_case": "Frontend Refactor + Dockerization",
+      "agent_type": "N/A (User Request)"
+    },
+    "P027": {
+      "id": "P027",
+      "type": "assistant",
+      "title": "Senior Frontend Architect / Dockerization Agent Prompt",
+      "pages": "61\u201366",
+      "topic": "Frontend Refactoring / DevOps",
+      "use_case": "Frontend Refactor + Containerization",
+      "agent_type": "Senior Frontend Architect"
+    },
+    "P028": {
+      "id": "P028",
+      "type": "user",
+      "title": "Hero Section Background Image Generation Request",
+      "pages": "67",
+      "topic": "Visual Design / Image Generation",
+      "use_case": "Hero Image Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P029": {
+      "id": "P029",
+      "type": "assistant",
+      "title": "World-Class Visual Designer / Generative Art Director Prompt",
+      "pages": "67\u201370",
+      "topic": "Visual Design / Image Generation",
+      "use_case": "Mural/Hero Image Generation",
+      "agent_type": "Visual Designer / Art Director"
+    },
+    "P030": {
+      "id": "P030",
+      "type": "user",
+      "title": "Slow Indexing Investigation Request",
+      "pages": "70",
+      "topic": "Performance Debugging",
+      "use_case": "RAG/Indexing Performance Investigation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P031": {
+      "id": "P031",
+      "type": "assistant",
+      "title": "Senior AI Systems / RAG Performance Debugger Prompt",
+      "pages": "70\u201374",
+      "topic": "Performance Debugging",
+      "use_case": "Indexing/RAG Performance Debugging",
+      "agent_type": "AI Systems / RAG Engineer"
+    },
+    "P032": {
+      "id": "P032",
+      "type": "user",
+      "title": "Internship Project Evaluation Agent Request",
+      "pages": "74\u201375",
+      "topic": "Career / Education",
+      "use_case": "Project Evaluation for Internship",
+      "agent_type": "N/A (User Request)"
+    },
+    "P033": {
+      "id": "P033",
+      "type": "assistant",
+      "title": "Senior Backend Project Strategist / Internship Evaluator Prompt",
+      "pages": "75\u201381",
+      "topic": "Career / Education",
+      "use_case": "Project Evaluation for Hiring Signal",
+      "agent_type": "Backend Project Strategist"
+    },
+    "P034": {
+      "id": "P034",
+      "type": "user",
+      "title": "Academic Project Report Creator Request",
+      "pages": "81",
+      "topic": "Academic / Document Generation",
+      "use_case": "Academic Report Creation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P035": {
+      "id": "P035",
+      "type": "assistant",
+      "title": "Academic Project Report Creator Agent Prompt",
+      "pages": "81\u201384",
+      "topic": "Academic / Document Generation",
+      "use_case": "Mini-Project Report Generation",
+      "agent_type": "Academic Report Agent"
+    },
+    "P036": {
+      "id": "P036",
+      "type": "user",
+      "title": "LeetCode Report with PDF Creation Request",
+      "pages": "84",
+      "topic": "Academic / LeetCode",
+      "use_case": "LeetCode Solution Report Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P037": {
+      "id": "P037",
+      "type": "assistant",
+      "title": "Senior Academic Report Drafting Agent for LeetCode Prompt",
+      "pages": "85\u201387",
+      "topic": "Academic / LeetCode",
+      "use_case": "LeetCode Report + PDF Generation",
+      "agent_type": "Academic Report / PDF Agent"
+    },
+    "P038": {
+      "id": "P038",
+      "type": "user",
+      "title": "High-Quality Teaching / Tutor Agent Request",
+      "pages": "88",
+      "topic": "Education / Tutoring",
+      "use_case": "Technical Tutor Agent Design",
+      "agent_type": "N/A (User Request)"
+    },
+    "P039": {
+      "id": "P039",
+      "type": "assistant",
+      "title": "Expert Learning Coach / Tutor Agent Prompt",
+      "pages": "88\u201392",
+      "topic": "Education / Tutoring",
+      "use_case": "High-Quality Technical Tutoring",
+      "agent_type": "Learning Coach / Tutor"
+    },
+    "P040": {
+      "id": "P040",
+      "type": "user",
+      "title": "Qwen3.6 Empty Response Debugging Request",
+      "pages": "92",
+      "topic": "LLM Runtime / Debugging",
+      "use_case": "LLM Runtime Empty Response Debug",
+      "agent_type": "N/A (User Request)"
+    },
+    "P041": {
+      "id": "P041",
+      "type": "assistant",
+      "title": "Senior LLM Runtime Debugging Agent Prompt",
+      "pages": "92\u201395",
+      "topic": "LLM Runtime / Debugging",
+      "use_case": "LLM Server / Model Debugging",
+      "agent_type": "LLM Runtime Debug Engineer"
+    },
+    "P042": {
+      "id": "P042",
+      "type": "user",
+      "title": "Open-Source PR Analyzer Agent Request",
+      "pages": "95",
+      "topic": "Open Source / PR Analysis",
+      "use_case": "PR Worthiness Analysis Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P043": {
+      "id": "P043",
+      "type": "assistant",
+      "title": "Senior Open-Source PR Strategist Agent Prompt",
+      "pages": "95\u201399",
+      "topic": "Open Source / PR Analysis",
+      "use_case": "PR Worthiness / Triage Analysis",
+      "agent_type": "Open-Source PR Analyst"
+    },
+    "P044": {
+      "id": "P044",
+      "type": "user",
+      "title": "Cultural Event Report PDF Agent Request",
+      "pages": "104",
+      "topic": "Academic / Document Generation",
+      "use_case": "Event Report with ReportLab",
+      "agent_type": "N/A (User Request)"
+    },
+    "P045": {
+      "id": "P045",
+      "type": "assistant",
+      "title": "PDF Report Production Agent (Conversational Only \u2014 No Prompt)",
+      "pages": "104",
+      "topic": "Academic / Document Generation",
+      "use_case": "Cultural Report PDF Generation (No Prompt)",
+      "agent_type": "N/A (No Agent Prompt Generated)"
+    },
+    "P046": {
+      "id": "P046",
+      "type": "user",
+      "title": "Refrigerator Buying Research Agent Request",
+      "pages": "104\u2013105",
+      "topic": "Consumer Research / Buying",
+      "use_case": "Product Research / Buying Decision",
+      "agent_type": "N/A (User Request)"
+    },
+    "P047": {
+      "id": "P047",
+      "type": "assistant",
+      "title": "Senior Appliance Buying Analyst Agent Prompt",
+      "pages": "105\u2013109",
+      "topic": "Consumer Research / Buying",
+      "use_case": "Refrigerator Buying Research",
+      "agent_type": "Buying Analyst"
+    },
+    "P048": {
+      "id": "P048",
+      "type": "user",
+      "title": "Cloudflare/Authentik Infrastructure Expert Request",
+      "pages": "109",
+      "topic": "Infrastructure / Security",
+      "use_case": "Secure Self-Hosted Architecture",
+      "agent_type": "N/A (User Request)"
+    },
+    "P049": {
+      "id": "P049",
+      "type": "assistant",
+      "title": "Senior Cloud Infrastructure / Security Engineer Prompt",
+      "pages": "109\u2013115",
+      "topic": "Infrastructure / Security",
+      "use_case": "Secure Tunnel/Auth Infrastructure",
+      "agent_type": "Cloud Infrastructure Architect"
+    },
+    "P050": {
+      "id": "P050",
+      "type": "user",
+      "title": "Python Lab Report with ReportLab Request",
+      "pages": "115\u2013116",
+      "topic": "Academic / Document Generation",
+      "use_case": "Lab Program Report + PDF Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P051": {
+      "id": "P051",
+      "type": "assistant",
+      "title": "Senior Academic Lab Report Production Agent Prompt",
+      "pages": "116\u2013120",
+      "topic": "Academic / Document Generation",
+      "use_case": "Lab Report PDF with ReportLab",
+      "agent_type": "Academic Report / PDF Agent"
+    },
+    "P052": {
+      "id": "P052",
+      "type": "user",
+      "title": "GPU 100% Usage After Indexing Bug Request",
+      "pages": "120",
+      "topic": "Performance / GPU Debugging",
+      "use_case": "GPU Utilization Debugging",
+      "agent_type": "N/A (User Request)"
+    },
+    "P053": {
+      "id": "P053",
+      "type": "assistant",
+      "title": "Senior AI Systems / GPU Performance Analyst Prompt",
+      "pages": "121\u2013127",
+      "topic": "Performance / GPU Debugging",
+      "use_case": "GPU Bug Root-Cause Analysis",
+      "agent_type": "GPU Performance Engineer"
+    },
+    "P054": {
+      "id": "P054",
+      "type": "user",
+      "title": "Remove Authentik / Migrate to Cloudflare Access Request",
+      "pages": "127",
+      "topic": "Infrastructure / Migration",
+      "use_case": "Auth Migration Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P055": {
+      "id": "P055",
+      "type": "assistant",
+      "title": "Senior Self-Hosting / Cloudflare Migration Agent Prompt",
+      "pages": "127\u2013133",
+      "topic": "Infrastructure / Migration",
+      "use_case": "Authentik Removal + CF Access Migration",
+      "agent_type": "Self-Hosting Migration Architect"
+    },
+    "P056": {
+      "id": "P056",
+      "type": "user",
+      "title": "Media Server Setup Planning Agent Request",
+      "pages": "134",
+      "topic": "Self-Hosting / Media",
+      "use_case": "Media Server Architecture Planning",
+      "agent_type": "N/A (User Request)"
+    },
+    "P057": {
+      "id": "P057",
+      "type": "assistant",
+      "title": "Senior Self-Hosting Media Server Planner Prompt",
+      "pages": "135\u2013140",
+      "topic": "Self-Hosting / Media",
+      "use_case": "Jellyfin Media Stack Planning",
+      "agent_type": "Self-Hosting Media Architect"
+    },
+    "P058": {
+      "id": "P058",
+      "type": "user",
+      "title": "Sonarr/qBittorrent Stopped Downloads Bug Request",
+      "pages": "140",
+      "topic": "Self-Hosting / Debugging",
+      "use_case": "Servarr Download Pipeline Debug",
+      "agent_type": "N/A (User Request)"
+    },
+    "P059": {
+      "id": "P059",
+      "type": "assistant",
+      "title": "Senior Servarr Download Pipeline Debugger Prompt",
+      "pages": "140\u2013146",
+      "topic": "Self-Hosting / Debugging",
+      "use_case": "Torrent Download Pipeline Debug",
+      "agent_type": "Servarr Ecosystem Debugger"
+    },
+    "P060": {
+      "id": "P060",
+      "type": "user",
+      "title": "LinkedIn Post Content Creator Request",
+      "pages": "146",
+      "topic": "Content / Social Media",
+      "use_case": "LinkedIn Technical Post Creation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P061": {
+      "id": "P061",
+      "type": "assistant",
+      "title": "Senior Technical Content / LinkedIn Strategist Prompt",
+      "pages": "146\u2013148",
+      "topic": "Content / Social Media",
+      "use_case": "LinkedIn Post for Open-Source Project",
+      "agent_type": "Content Strategist / Ghostwriter"
+    },
+    "P062": {
+      "id": "P062",
+      "type": "user",
+      "title": "Ubuntu Storage Cleanup Agent Request",
+      "pages": "148",
+      "topic": "System Admin / Storage",
+      "use_case": "Safe Storage Recovery Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P063": {
+      "id": "P063",
+      "type": "assistant",
+      "title": "Senior Linux Storage Recovery Engineer Prompt",
+      "pages": "148\u2013155",
+      "topic": "System Admin / Storage",
+      "use_case": "Safe Ubuntu Storage Cleanup",
+      "agent_type": "Storage Recovery Engineer"
+    },
+    "P064": {
+      "id": "P064",
+      "type": "user",
+      "title": "Professional README/Docs with Images Request",
+      "pages": "156",
+      "topic": "Documentation / OSS",
+      "use_case": "Professional README + Docs Generation",
+      "agent_type": "N/A (User Request)"
+    },
+    "P065": {
+      "id": "P065",
+      "type": "assistant",
+      "title": "Senior OSS Documentation Architect Prompt",
+      "pages": "156\u2013160",
+      "topic": "Documentation / OSS",
+      "use_case": "Professional README + Docs System",
+      "agent_type": "Documentation Architect"
+    },
+    "P066": {
+      "id": "P066",
+      "type": "user",
+      "title": "Chess Genius Agent Request",
+      "pages": "160",
+      "topic": "Education / Chess",
+      "use_case": "Chess Knowledge / Coaching Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P067": {
+      "id": "P067",
+      "type": "user",
+      "title": "Expert Resume Builder for Upwork Request",
+      "pages": "161",
+      "topic": "Career / Resume",
+      "use_case": "Resume Enhancement Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P068": {
+      "id": "P068",
+      "type": "assistant",
+      "title": "Expert Resume Strategist / ATS Optimizer Prompt",
+      "pages": "161\u2013166",
+      "topic": "Career / Resume",
+      "use_case": "Resume + Upwind Profile Optimization",
+      "agent_type": "Resume Strategist"
+    },
+    "P069": {
+      "id": "P069",
+      "type": "user",
+      "title": "Phased Build Plan + Integration Tests Agent Request",
+      "pages": "166",
+      "topic": "Software Engineering / Planning",
+      "use_case": "Phased Implementation with Tests",
+      "agent_type": "N/A (User Request)"
+    },
+    "P070": {
+      "id": "P070",
+      "type": "assistant",
+      "title": "Senior Software Architect / Phased Build Agent Prompt",
+      "pages": "166\u2013170",
+      "topic": "Software Engineering / Planning",
+      "use_case": "Phased Implementation + Integration Tests",
+      "agent_type": "Software Architect / Implementation Lead"
+    },
+    "P071": {
+      "id": "P071",
+      "type": "user",
+      "title": "Plan Implementer with Context7 Research Request",
+      "pages": "170\u2013171",
+      "topic": "Software Engineering / Efficiency",
+      "use_case": "Research-Backed Implementation Planning",
+      "agent_type": "N/A (User Request)"
+    },
+    "P072": {
+      "id": "P072",
+      "type": "user",
+      "title": "UI/UX Audit Agent for React PWA Request",
+      "pages": "171",
+      "topic": "UI/UX Audit",
+      "use_case": "React PWA UI/UX Improvement Report",
+      "agent_type": "N/A (User Request)"
+    },
+    "P073": {
+      "id": "P073",
+      "type": "assistant",
+      "title": "Senior UI/UX Engineering Auditor Prompt (v1)",
+      "pages": "171\u2013176",
+      "topic": "UI/UX Audit",
+      "use_case": "React PWA UI/UX Audit + Report",
+      "agent_type": "UI/UX Engineering Auditor"
+    },
+    "P074": {
+      "id": "P074",
+      "type": "user",
+      "title": "Deep Security / Functionality Audit Request",
+      "pages": "176\u2013177",
+      "topic": "Security / Architecture Audit",
+      "use_case": "Multi-Agent Security + Resilience Audit",
+      "agent_type": "N/A (User Request)"
+    },
+    "P075": {
+      "id": "P075",
+      "type": "assistant",
+      "title": "Principal Software / Multi-Agent Auditor Prompt",
+      "pages": "177\u2013182",
+      "topic": "Security / Architecture Audit",
+      "use_case": "Deep Security + Functionality Audit",
+      "agent_type": "Principal Software Auditor"
+    },
+    "P076": {
+      "id": "P076",
+      "type": "user",
+      "title": "UI/UX Engineer Agent for Clunky UI Request",
+      "pages": "183",
+      "topic": "UI/UX Design",
+      "use_case": "UX Improvement + Design Research Agent",
+      "agent_type": "N/A (User Request)"
+    },
+    "P077": {
+      "id": "P077",
+      "type": "assistant",
+      "title": "Senior UI/UX Engineer / Product Experience Auditor Prompt (v2)",
+      "pages": "183\u2013189",
+      "topic": "UI/UX Design",
+      "use_case": "UX Research + Improvement Plan",
+      "agent_type": "Senior UI/UX Engineer"
+    },
+    "P078": {
+      "id": "P078",
+      "type": "user",
+      "title": "Pure Brainstorming / Ideation Agent Request",
+      "pages": "189\u2013190",
+      "topic": "Meta / Ideation",
+      "use_case": "Deep Brainstorming / Ideation Partner",
+      "agent_type": "N/A (User Request)"
+    },
+    "P043b": {
+      "id": "P043b",
+      "type": "assistant",
+      "title": "Open-Source Bug Hunter / PR Investigator Agent Prompt",
+      "pages": "100-103",
+      "topic": "Bug Fixing / Debugging",
+      "use_case": "Open-Source Bug Hunting / Feature Debugging",
+      "agent_type": "Open-Source Bug Hunter"
+    },
+    "P066b": {
+      "id": "P066b",
+      "type": "assistant",
+      "title": "Chess Genius Agent (Conversational Only \u2014 No Prompt)",
+      "pages": "160-161",
+      "topic": "Education / Chess",
+      "use_case": "Chess Coaching Agent Design (No Prompt)",
+      "agent_type": "N/A (No Agent Prompt Generated)"
+    }
+  },
+  "topics": [
+    "Testing Prompt Engineering",
+    "Bug Fixing / Debugging",
+    "Testing Retest / QA",
+    "Wrapper / Meta-Agent",
+    "Spatial / Geospatial Engineering",
+    "Testing \u2014 Full Coverage",
+    "Testing \u2014 E2E Workflow",
+    "Testing \u2014 E2E Java Project",
+    "DevOps / Deployment",
+    "Bug Fixing / Spatial",
+    "System Architecture / Planning",
+    "Meta / Agent Design",
+    "Database Recovery / Migration",
+    "Testing \u2014 Full Stack / Bug Fixing",
+    "Frontend Refactoring / DevOps",
+    "Visual Design / Image Generation",
+    "Performance Debugging",
+    "Career / Education",
+    "Academic / Document Generation",
+    "Academic / LeetCode",
+    "Education / Tutoring",
+    "LLM Runtime / Debugging",
+    "Open Source / PR Analysis",
+    "Consumer Research / Buying",
+    "Infrastructure / Security",
+    "Performance / GPU Debugging",
+    "Infrastructure / Migration",
+    "Self-Hosting / Media",
+    "Self-Hosting / Debugging",
+    "Content / Social Media",
+    "System Admin / Storage",
+    "Documentation / OSS",
+    "Education / Chess",
+    "Career / Resume",
+    "Software Engineering / Planning",
+    "Software Engineering / Efficiency",
+    "UI/UX Audit",
+    "Security / Architecture Audit",
+    "UI/UX Design",
+    "Meta / Ideation"
+  ],
+  "agent_types": [
+    "N/A (User Request)",
+    "Senior QA Engineer",
+    "Senior Backend Engineer",
+    "Senior QA Automation",
+    "Principal Geospatial Engineer",
+    "Senior Testing Agent",
+    "Principal E2E QA Agent",
+    "Senior E2E QA Agent",
+    "Senior DevOps Engineer",
+    "Senior Full-Stack Debugging Agent",
+    "Systems Architect / Planner",
+    "Database Recovery Architect",
+    "Full-Stack QA / Debugging Agent",
+    "Senior Frontend Architect",
+    "Visual Designer / Art Director",
+    "AI Systems / RAG Engineer",
+    "Backend Project Strategist",
+    "Academic Report Agent",
+    "Academic Report / PDF Agent",
+    "Learning Coach / Tutor",
+    "LLM Runtime Debug Engineer",
+    "Open-Source PR Analyst",
+    "N/A (No Agent Prompt Generated)",
+    "Buying Analyst",
+    "Cloud Infrastructure Architect",
+    "GPU Performance Engineer",
+    "Self-Hosting Migration Architect",
+    "Self-Hosting Media Architect",
+    "Servarr Ecosystem Debugger",
+    "Content Strategist / Ghostwriter",
+    "Storage Recovery Engineer",
+    "Documentation Architect",
+    "Resume Strategist",
+    "Software Architect / Implementation Lead",
+    "UI/UX Engineering Auditor",
+    "Principal Software Auditor",
+    "Senior UI/UX Engineer",
+    "Open-Source Bug Hunter"
+  ]
+}
