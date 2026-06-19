@@ -97,14 +97,4 @@
 | P076 | UI/UX Engineer v2 Request | `prompts/requests/P076-ui-ux-engineer-v2-request.md` |
 | P078 | Brainstorming Ideation Request | `prompts/requests/P078-brainstorming-ideation-request.md` |
 
-## Browse by Topic
 
-See `archive/extracted_prompts/index/by-topic/README.md` for the full topic-based index.
-
-## Browse by Agent Type
-
-See `archive/extracted_prompts/index/by-agent-type/README.md` for the full agent-type index.
-
-## Browse by Use Case
-
-See `archive/extracted_prompts/index/by-use-case/README.md` for the full use-case index.
