@@ -50,6 +50,8 @@
 | P073 | UI/UX Auditor | `prompts/agents/P073-ui-ux-auditor.md` |
 | P075 | Principal Security Auditor | `prompts/agents/P075-principal-security-auditor.md` |
 | P077 | UI/UX Engineer v2 | `prompts/agents/P077-ui-ux-engineer-v2.md` |
+| P079 | Transcript Distillation Agent | `prompts/agents/P079-transcript-distillation-agent.md` |
+| P080 | Model Routing Strategist | `prompts/agents/P080-model-routing-strategist.md` |
 
 ## User Requests (by ID)
 
